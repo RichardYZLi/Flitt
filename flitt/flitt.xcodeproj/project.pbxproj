@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C09E4961D61139200EAA8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09E4951D61139200EAA8EC /* AppDelegate.swift */; };
+		2C09E4981D61139200EAA8EC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09E4971D61139200EAA8EC /* FirstViewController.swift */; };
+		2C09E49A1D61139200EAA8EC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09E4991D61139200EAA8EC /* SecondViewController.swift */; };
+		2C09E49D1D61139200EAA8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C09E49B1D61139200EAA8EC /* Main.storyboard */; };
+		2C09E49F1D61139200EAA8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C09E49E1D61139200EAA8EC /* Assets.xcassets */; };
+		2C09E4A21D61139200EAA8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C09E4A01D61139200EAA8EC /* LaunchScreen.storyboard */; };
+		2C09E4AD1D61139200EAA8EC /* flittTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09E4AC1D61139200EAA8EC /* flittTests.swift */; };
+		2C09E4B81D61139200EAA8EC /* flittUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09E4B71D61139200EAA8EC /* flittUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C09E4A91D61139200EAA8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C09E48A1D61139200EAA8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C09E4911D61139200EAA8EC;
+			remoteInfo = flitt;
+		};
+		2C09E4B41D61139200EAA8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C09E48A1D61139200EAA8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C09E4911D61139200EAA8EC;
+			remoteInfo = flitt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C09E4921D61139200EAA8EC /* flitt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flitt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C09E4951D61139200EAA8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C09E4971D61139200EAA8EC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2C09E4991D61139200EAA8EC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2C09E49C1D61139200EAA8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C09E49E1D61139200EAA8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C09E4A11D61139200EAA8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C09E4A31D61139200EAA8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C09E4A81D61139200EAA8EC /* flittTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flittTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C09E4AC1D61139200EAA8EC /* flittTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flittTests.swift; sourceTree = "<group>"; };
+		2C09E4AE1D61139200EAA8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C09E4B31D61139200EAA8EC /* flittUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flittUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C09E4B71D61139200EAA8EC /* flittUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flittUITests.swift; sourceTree = "<group>"; };
+		2C09E4B91D61139200EAA8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C09E48F1D61139200EAA8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C09E4A51D61139200EAA8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C09E4B01D61139200EAA8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C09E4891D61139200EAA8EC = {
+			isa = PBXGroup;
+			children = (
+				2C09E4941D61139200EAA8EC /* flitt */,
+				2C09E4AB1D61139200EAA8EC /* flittTests */,
+				2C09E4B61D61139200EAA8EC /* flittUITests */,
+				2C09E4931D61139200EAA8EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C09E4931D61139200EAA8EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C09E4921D61139200EAA8EC /* flitt.app */,
+				2C09E4A81D61139200EAA8EC /* flittTests.xctest */,
+				2C09E4B31D61139200EAA8EC /* flittUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C09E4941D61139200EAA8EC /* flitt */ = {
+			isa = PBXGroup;
+			children = (
+				2C09E4951D61139200EAA8EC /* AppDelegate.swift */,
+				2C09E4971D61139200EAA8EC /* FirstViewController.swift */,
+				2C09E4991D61139200EAA8EC /* SecondViewController.swift */,
+				2C09E49B1D61139200EAA8EC /* Main.storyboard */,
+				2C09E49E1D61139200EAA8EC /* Assets.xcassets */,
+				2C09E4A01D61139200EAA8EC /* LaunchScreen.storyboard */,
+				2C09E4A31D61139200EAA8EC /* Info.plist */,
+			);
+			path = flitt;
+			sourceTree = "<group>";
+		};
+		2C09E4AB1D61139200EAA8EC /* flittTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C09E4AC1D61139200EAA8EC /* flittTests.swift */,
+				2C09E4AE1D61139200EAA8EC /* Info.plist */,
+			);
+			path = flittTests;
+			sourceTree = "<group>";
+		};
+		2C09E4B61D61139200EAA8EC /* flittUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C09E4B71D61139200EAA8EC /* flittUITests.swift */,
+				2C09E4B91D61139200EAA8EC /* Info.plist */,
+			);
+			path = flittUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C09E4911D61139200EAA8EC /* flitt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C09E4BC1D61139200EAA8EC /* Build configuration list for PBXNativeTarget "flitt" */;
+			buildPhases = (
+				2C09E48E1D61139200EAA8EC /* Sources */,
+				2C09E48F1D61139200EAA8EC /* Frameworks */,
+				2C09E4901D61139200EAA8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flitt;
+			productName = flitt;
+			productReference = 2C09E4921D61139200EAA8EC /* flitt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C09E4A71D61139200EAA8EC /* flittTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C09E4BF1D61139200EAA8EC /* Build configuration list for PBXNativeTarget "flittTests" */;
+			buildPhases = (
+				2C09E4A41D61139200EAA8EC /* Sources */,
+				2C09E4A51D61139200EAA8EC /* Frameworks */,
+				2C09E4A61D61139200EAA8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C09E4AA1D61139200EAA8EC /* PBXTargetDependency */,
+			);
+			name = flittTests;
+			productName = flittTests;
+			productReference = 2C09E4A81D61139200EAA8EC /* flittTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C09E4B21D61139200EAA8EC /* flittUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C09E4C21D61139200EAA8EC /* Build configuration list for PBXNativeTarget "flittUITests" */;
+			buildPhases = (
+				2C09E4AF1D61139200EAA8EC /* Sources */,
+				2C09E4B01D61139200EAA8EC /* Frameworks */,
+				2C09E4B11D61139200EAA8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C09E4B51D61139200EAA8EC /* PBXTargetDependency */,
+			);
+			name = flittUITests;
+			productName = flittUITests;
+			productReference = 2C09E4B31D61139200EAA8EC /* flittUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C09E48A1D61139200EAA8EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nicole Wongsoo";
+				TargetAttributes = {
+					2C09E4911D61139200EAA8EC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2C09E4A71D61139200EAA8EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C09E4911D61139200EAA8EC;
+					};
+					2C09E4B21D61139200EAA8EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C09E4911D61139200EAA8EC;
+					};
+				};
+			};
+			buildConfigurationList = 2C09E48D1D61139200EAA8EC /* Build configuration list for PBXProject "flitt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C09E4891D61139200EAA8EC;
+			productRefGroup = 2C09E4931D61139200EAA8EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C09E4911D61139200EAA8EC /* flitt */,
+				2C09E4A71D61139200EAA8EC /* flittTests */,
+				2C09E4B21D61139200EAA8EC /* flittUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C09E4901D61139200EAA8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C09E4A21D61139200EAA8EC /* LaunchScreen.storyboard in Resources */,
+				2C09E49F1D61139200EAA8EC /* Assets.xcassets in Resources */,
+				2C09E49D1D61139200EAA8EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C09E4A61D61139200EAA8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C09E4B11D61139200EAA8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C09E48E1D61139200EAA8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C09E49A1D61139200EAA8EC /* SecondViewController.swift in Sources */,
+				2C09E4961D61139200EAA8EC /* AppDelegate.swift in Sources */,
+				2C09E4981D61139200EAA8EC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C09E4A41D61139200EAA8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C09E4AD1D61139200EAA8EC /* flittTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C09E4AF1D61139200EAA8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C09E4B81D61139200EAA8EC /* flittUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C09E4AA1D61139200EAA8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C09E4911D61139200EAA8EC /* flitt */;
+			targetProxy = 2C09E4A91D61139200EAA8EC /* PBXContainerItemProxy */;
+		};
+		2C09E4B51D61139200EAA8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C09E4911D61139200EAA8EC /* flitt */;
+			targetProxy = 2C09E4B41D61139200EAA8EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C09E49B1D61139200EAA8EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C09E49C1D61139200EAA8EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C09E4A01D61139200EAA8EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C09E4A11D61139200EAA8EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C09E4BA1D61139200EAA8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C09E4BB1D61139200EAA8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C09E4BD1D61139200EAA8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flitt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SSP.flitt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C09E4BE1D61139200EAA8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flitt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SSP.flitt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C09E4C01D61139200EAA8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flittTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SSP.flittTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flitt.app/flitt";
+			};
+			name = Debug;
+		};
+		2C09E4C11D61139200EAA8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flittTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SSP.flittTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flitt.app/flitt";
+			};
+			name = Release;
+		};
+		2C09E4C31D61139200EAA8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flittUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SSP.flittUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flitt;
+			};
+			name = Debug;
+		};
+		2C09E4C41D61139200EAA8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flittUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SSP.flittUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flitt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C09E48D1D61139200EAA8EC /* Build configuration list for PBXProject "flitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C09E4BA1D61139200EAA8EC /* Debug */,
+				2C09E4BB1D61139200EAA8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C09E4BC1D61139200EAA8EC /* Build configuration list for PBXNativeTarget "flitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C09E4BD1D61139200EAA8EC /* Debug */,
+				2C09E4BE1D61139200EAA8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C09E4BF1D61139200EAA8EC /* Build configuration list for PBXNativeTarget "flittTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C09E4C01D61139200EAA8EC /* Debug */,
+				2C09E4C11D61139200EAA8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C09E4C21D61139200EAA8EC /* Build configuration list for PBXNativeTarget "flittUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C09E4C31D61139200EAA8EC /* Debug */,
+				2C09E4C41D61139200EAA8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C09E48A1D61139200EAA8EC /* Project object */;
+}
